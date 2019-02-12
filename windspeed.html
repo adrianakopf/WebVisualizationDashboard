@@ -8,8 +8,18 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
+<style>
+    body {
+      background-color: rgba(149, 152, 175, 0.534);  
+    }
+    body {
+      color: rgb(23, 23, 128);
+    }
+    p {
+      font-size: 18px;
+    }   
+</style>
 <body>
-
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -32,7 +42,7 @@
 <div class = "container-fluid">
     <div class = "row">
     <div class="col-md-8">
-        <h3>Average Wind Speed</h3>
+        <h1>Average Wind Speed</h1>
         <img class = "img-responsive" src ="Images/LatitudeVsWindSpeed.png" style = "width:60%; margin:5px;" alt = "Latitude vs Wind Speed">
         <p>There is no strong relationship between latitude and wind speed. </p>
     </div>
@@ -40,8 +50,8 @@
     <div class="col-md-4">
         <div class="panel panel-default">
           <div class = "panel-body">
-                  <h2>Visualizations</h2>
-                    <div class = "row" style = "with:100%; padding-bottom: 10px">
+                  <h3>Visualizations</h3>
+                    <div class = "row" style = "with:100%; padding: 30px">
                     <div class="col"><a href="temperature.html"><img class = "img-responsive" src ="Images/LatitudeVsTemperature.png" style = "width:100%;" alt = "Latitude vs Temperature"></a></div>
                     <div class="col"><a href="humidity.html"><img class = "img-responsive" src ="Images/LatitudeVsHumidity.png" style = "width:100%;" alt = "Latitude vs Humidity"></a></div>
                     <div class="col"><a href="cloudiness.html"><img class = "img-responsive" src ="Images/LatitudeVsCloudiness.png" style = "width:100%;" alt = "Latitude vs Cloudiness"></a></div>
