@@ -1,3 +1,2 @@
-# Web_Visualization_Dashboard
+# Web Visualization Dashboard
 Bootstrap, CSS, HTML
-Adriana Kopf
